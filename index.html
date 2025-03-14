@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de mascotas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"><img src="img/logo/vecteezy_cute-dog-logo_9651674.jpg" alt="Logo"></a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu/menu.png" class="menu-icono" alt="Menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="cart">
+                <ul>
+                    <li class="submenu">
+                        <img src="img/carrito/vecteezy_trolley-thin-line-add-to-shopping-cart-icon-vector_6693382.jpg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="img/menu/modelo-2.jpg" class="img-modelo" alt="Logo">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>Encuentra todo lo que necesitas para tu mascota</p>
+                <a href="#" class="btn-1">Ver Productos</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="ofert container">
+
+        <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="img/ofertas/imagen-4.jpg" alt="oferta 1">
+                </div>
+                <div class="ofert-txt">
+                    <h2>Oferta 1</h2>
+                    <p>Descripción de la oferta 1</p>
+                    <a href="#" class="btn-2">Ver Oferta</a>
+                </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/ofertas/imagen-2.jpg" alt="oferta 2">
+            </div>
+            <div class="ofert-txt">
+                <h2>Oferta 2</h2>
+                <p>Descripción de la oferta 2</p>
+                <a href="#" class="btn-2">Ver Oferta</a>
+            </div>
+    </div>
+
+    <div class="ofert-1">
+        <div class="ofert-img">
+            <img src="img/ofertas/imagen-3.jpg" alt="oferta 3">
+        </div>
+        <div class="ofert-txt">
+            <h2>Oferta 3</h2>
+            <p>Descripción de la oferta 3</p>
+            <a href="#" class="btn-2">Ver Oferta</a>
+        </div>
+    </div>
+
+    </section>
+
+    <main class="products container" id="lista-1">
+
+        <h2>productos</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="/img/zapatos/imagen-4.jpg" alt="zapatos-1">
+                <div class="product-txt">
+                    <h3>Zapatos impermeables</h3>
+                    <p>Ajustables</p>
+                    <p class="precio">$20</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/cinturones/imagen-1.jpg" alt="cinturon-1">
+                <div class="product-txt">
+                    <h3>Cinturon de cuero</h3>
+                    <p>Ajustables</p>
+                    <p class="precio">$40</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/disfraces/imagen-2.jpg" alt="disfraz-1">
+                <div class="product-txt">
+                    <h3>Disfraz</h3>
+                    <p>Con accesorios</p>
+                    <p class="precio">$30</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/sombreros/imagen-4.jpg" alt="sombrero-1">
+                <div class="product-txt">
+                    <h3>Sombrero de lana</h3>
+                    <p>Ajustable</p>
+                    <p class="precio">$10</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/correas/imagen-2.jpg" alt="correa-1">
+                <div class="product-txt">
+                    <h3>Correa de cuero</h3>
+                    <p>Ajustable</p>
+                    <p class="precio">$25</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="/img/cinturones/imagen-5.jpg" alt="cinturon-2">
+                <div class="product-txt">
+                    <h3>Cinturon de cuero</h3>
+                    <p>Ajustable</p>
+                    <p class="precio">$45</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="icons container">
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/icons/i1.svg" class="icono-img" alt="icono 1">
+            </div>
+            <div class="icon-txt">
+                <h3>Envio gratis</h3>
+                <p>Envio gratis en compras mayores a $50 en ropa</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/icons/i2.svg" class="icono-img" alt="icono 2">
+            </div>
+            <div class="icon-txt">
+                <h3>Envio gratis</h3>
+                <p>Envio gratis en compras mayores a $40 en zapatos</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/icons/i3.svg" class="icono-img" alt="icono 3">
+            </div>
+            <div class="icon-txt">
+                <h3>Envio gratis</h3>
+                <p>Envio gratis en compras mayores a $30 en tuallas</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog container">
+
+        <div class="blog-1">
+            <img src="img/combos/imagen-1.jpg" alt="">
+            <h3>blog 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi, 
+                nemo expedita assumenda ratione ut porro optio rerum ullam. Laudantium 
+                corporis aliquid architecto minima sed accusantium quibusdam, excepturi 
+                non dolore!
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="img/combos/imagen-2.jpg" alt="">
+            <h3>blog 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi, 
+                nemo expedita assumenda ratione ut porro optio rerum ullam. Laudantium 
+                corporis aliquid architecto minima sed accusantium quibusdam, excepturi 
+                non dolore!
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="img/combos/imagen-3.jpg" alt="">
+            <h3>blog 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi, 
+                nemo expedita assumenda ratione ut porro optio rerum ullam. Laudantium 
+                corporis aliquid architecto minima sed accusantium quibusdam, excepturi 
+                non dolore!
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
